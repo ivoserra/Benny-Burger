@@ -1,0 +1,55 @@
+
+/* header */
+.header {
+    &__img {
+        background: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg) bottom;
+        background-size: cover;
+    }
+
+}
+
+/*Features*/
+
+.card{
+    &-img-wrapper{
+    width:6rem !important;
+    padding:1.2rem;
+    border:1px solid black;
+
+    border-radius:100% !important   ;
+    -webkit-border-radius:100% !important   ;
+    -moz-border-radius:100% !important   ;
+    -ms-border-radius:100% !important   ;
+    -o-border-radius:100% !important   ;
+
+    }
+}
+
+
+/*NEWS*/
+.card{
+    &-style{
+        border:1px solid black !important;
+    }
+    
+}
+
+/*booking*/
+
+input, select {
+    margin-bottom: 1rem !important;
+}
+@media (min-width:576px) {
+    form{
+        width:27rem;
+    }
+}
+
+
+/*footer*/
+
+.footer{
+    height:3rem;
+}
+
+

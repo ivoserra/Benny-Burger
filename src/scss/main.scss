@@ -1,0 +1,13 @@
+// This is where you can import other stylesheets or write your scss code
+
+
+
+@import "./variables";
+@import "./base";
+@import "./components";
+@import "./layout";
+
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
